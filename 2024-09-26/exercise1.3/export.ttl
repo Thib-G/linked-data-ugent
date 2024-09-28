@@ -1,0 +1,11 @@
+@prefix schema: <http://schema.org/>.
+
+<https://marvel.com/panther-cult> schema:alternateName "Black Panther Cult", "Cult of the Panther";
+    schema:name "Panther Cult";
+    a schema:Organization.
+<https://www.marvel.com/characters/shuri> schema:alternateName "Black Panther";
+    schema:email "shuri@marvel.com";
+    schema:image <https://static.wikia.nocookie.net/_Vol_1_1_Textless.Jpg/revision/latest>;
+    schema:memberOf <https://marvel.com/panther-cult>;
+    schema:name "Shuri";
+    a schema:Person.
