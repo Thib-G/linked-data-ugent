@@ -15,8 +15,16 @@ async function main() {
   });
   writer.addQuads(quads);
 
-  let turtleData = '';
-  writer.end((error, result) => turtleData = result);
+  const turtleData = await new Promise((resolve, reject) => {
+    writer.end((error, result) => {
+      if (error) {
+        reject(error);
+      } else {
+        resolve(result);
+      }
+    });
+  });
+
   console.log(turtleData);
   await writeFile('export.ttl', turtleData, 'utf-8');
 }
