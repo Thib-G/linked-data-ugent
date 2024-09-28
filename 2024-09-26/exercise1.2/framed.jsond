@@ -1,0 +1,12 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/"
+  },
+  "@id": "https://marvel.com/panther-cult",
+  "@type": "Organization",
+  "alternateName": [
+    "Black Panther Cult",
+    "Cult of the Panther"
+  ],
+  "name": "Panther Cult"
+}

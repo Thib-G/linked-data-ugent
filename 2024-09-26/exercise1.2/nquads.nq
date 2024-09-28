@@ -1,0 +1,10 @@
+<https://marvel.com/panther-cult> <http://schema.org/alternateName> "Black Panther Cult" .
+<https://marvel.com/panther-cult> <http://schema.org/alternateName> "Cult of the Panther" .
+<https://marvel.com/panther-cult> <http://schema.org/name> "Panther Cult" .
+<https://marvel.com/panther-cult> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://www.marvel.com/characters/shuri> <http://schema.org/alternateName> "Black Panther" .
+<https://www.marvel.com/characters/shuri> <http://schema.org/email> "shuri@marvel.com" .
+<https://www.marvel.com/characters/shuri> <http://schema.org/image> <https://static.wikia.nocookie.net/_Vol_1_1_Textless.Jpg/revision/latest> .
+<https://www.marvel.com/characters/shuri> <http://schema.org/memberOf> <https://marvel.com/panther-cult> .
+<https://www.marvel.com/characters/shuri> <http://schema.org/name> "Shuri" .
+<https://www.marvel.com/characters/shuri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .

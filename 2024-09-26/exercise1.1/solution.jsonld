@@ -1,0 +1,19 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/" 
+  },
+  "@id": "https://www.marvel.com/characters/shuri",
+  "@type": "Person",
+  "name": "Shuri",
+  "alternateName": "Black Panther",
+  "email": "shuri@marvel.com",
+  "image": {
+    "@id": "https://static.wikia.nocookie.net/_Vol_1_1_Textless.Jpg/revision/latest"
+  },
+  "memberOf": {
+    "@id": "https://marvel.com/panther-cult",
+    "@type": "Organization",
+    "name": "Panther Cult",
+    "alternateName": ["Black Panther Cult", "Cult of the Panther"]
+  }
+}
