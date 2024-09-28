@@ -10,7 +10,7 @@ async function main() {
   const writer = new Writer({
     format: 'text/turtle',
     prefixes: {
-      schema: 'http://schema.org/'
+      schema: 'http://schema.org/',
     },
   });
   writer.addQuads(quads);
