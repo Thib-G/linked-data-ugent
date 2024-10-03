@@ -1,0 +1,17 @@
+{
+  "name": "exercise1.1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "rdf-data-factory": "^1.1.2",
+    "rdf-dereference": "^3.0.0",
+    "rdf-stores": "^1.0.0"
+  }
+}
