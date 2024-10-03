@@ -1,0 +1,18 @@
+@prefix ns0: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://thib.goelff.be/#me>
+  a <https://schema.org/Person> ;
+  ns0:alternateName "Thib"^^xsd:string ;
+  ns0:email "thibaut@goelff.be"^^xsd:string ;
+  ns0:firstName "Thibaut"^^xsd:string ;
+  ns0:followsCourse <https://pietercolpaert.be/teaching/lds/#2024-2025> ;
+  ns0:haircut "http://haircut.com/type/bald"^^xsd:string ;
+  ns0:image <https://static.wikia.nocookie.net/_Vol_1_1_Textless.Jpg/revision/latest> ;
+  ns0:lastName "Goelff"^^xsd:string ;
+  ns0:memberOf <https://datamineurs.be/> .
+
+<https://datamineurs.be/>
+  a ns0:Meetup ;
+  ns0:alternateName "Data Mineurs"^^xsd:string, "Data Mineurs meetups"^^xsd:string ;
+  ns0:name "Data Mineurs"^^xsd:string .

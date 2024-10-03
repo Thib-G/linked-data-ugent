@@ -1,0 +1,24 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/" 
+  },
+  "@id": "https://thib.goelff.be/#me",
+  "@type": "Person",
+  "lastName": "Goelff",
+  "firstName": "Thibaut",
+  "alternateName": "Thib",
+  "email": "thibaut@goelff.be",
+  "haircut": "http://haircut.com/type/bald",
+  "image": {
+    "@id": "https://static.wikia.nocookie.net/_Vol_1_1_Textless.Jpg/revision/latest"
+  },
+  "memberOf": {
+    "@id": "https://datamineurs.be/",
+    "@type": "Meetup",
+    "name": "Data Mineurs",
+    "alternateName": ["Data Mineurs", "Data Mineurs meetups"]
+  },
+  "followsCourse": {
+    "@id": "https://pietercolpaert.be/teaching/lds/#2024-2025"
+  }
+}
