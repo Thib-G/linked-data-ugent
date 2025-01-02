@@ -1,0 +1,72 @@
+@prefix wd:   <http://www.wikidata.org/entity/> .
+@prefix wdt:  <http://www.wikidata.org/prop/> .
+@prefix wdps: <http://www.wikidata.org/prop/statement/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+wd:Q7432
+    rdfs:label "species" .
+
+wd:Q36732
+    rdfs:label "kingdom" .
+
+wd:Q131227
+    wdt:P171   [ wdps:P171 wd:Q213938 ; ] ;
+    wdt:P105   [ wdps:P105 wd:Q7432 ; ] ;
+    rdfs:label "Amanita Muscaria" .
+
+wd:Q213938
+    wdt:P171   [ wdps:P171 wd:Q734651 ] ;
+    rdfs:label "Amanita" .
+
+wd:Q734651
+    wdt:P171   [ wdps:P171 wd:Q221448 ; ] ;
+    rdfs:label "Amanitaceae" .
+
+
+wd:Q227690
+    wdt:P171   [ wdps:P171 wd:Q390456 ; ] ;
+    wdt:P105   [ wdps:P105 wd:Q7432 ; ] ;
+    rdfs:label "Agaricus bisporus" .
+
+wd:Q390456
+    wdt:P171   [ wdps:P171 wd:Q913614 ; ] ;
+    rdfs:label "Agaricus" .
+
+wd:Q913614
+    wdt:P171   [ wdps:P171 wd:Q221448 ; ] ;
+    rdfs:label "Agaricaceae" .
+
+# === Begin shared hierarchy
+
+wd:Q221448
+    wdt:P171   [ wdps:P171 wd:Q131868 ; ] ;
+    rdfs:label "Agaricales" .
+
+wd:Q131868
+    wdt:P171   [ wdps:P171 wd:Q27720 ; ] ;
+    rdfs:label "Agaricomycetidae" .
+
+wd:Q27720
+    wdt:P171   [ wdps:P171 wd:Q584822 ; ] ;
+    rdfs:label "Agaricomycetidae" .
+
+wd:Q584822
+    wdt:P171   [ wdps:P171 wd:Q174698 ; ] ;
+    rdfs:label "Agaricomycotina" .
+
+wd:Q174698
+    wdt:P171   [ wdps:P171 wd:Q755714 ; ] ;
+    rdfs:label "Basidiomycota" .
+
+wd:Q755714
+    wdt:P171   [ wdps:P171 wd:Q764 ; ] ;
+    rdfs:label "Dikarya" .
+
+wd:Q19740
+    wdt:P171   [ wdps:P171 wd:Q764 ; ] ;
+    wdt:P105   [ wdps:P105 wd:Q7432 ; ] ;
+    rdfs:label "Boletus edulis" .
+
+wd:Q764
+    wdt:P225   [ wdps:P225 "Fungi" ; ] ;
+    rdfs:label "Fungus" .

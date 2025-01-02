@@ -1,0 +1,77 @@
+import { QueryEngine} from "@comunica/query-sparql";
+import {QueryStringContext} from "@comunica/types";
+
+(async function(){
+    const myEngine = new QueryEngine();
+
+    const context: QueryStringContext = {
+        // Links to everyone https://www.rubensworks.net/ knows
+        sources: [
+            'https://www.rubensworks.net/',
+
+            'https://data.verborgh.org/people/anastasia_dimou',
+            'https://data.verborgh.org/people/arne_gevaert',
+            'https://data.verborgh.org/people/bart_bogaerts',
+            'https://data.verborgh.org/people/bas_ketsman',
+            'http://ben.de-meester.org/#me',
+            'https://bsteenwi.github.io/',
+            'https://w3id.org/people/brechtvdv/#me',
+            'https://data.verborgh.org/people/bruno_volckaert',
+            'https://data.verborgh.org/people/didier_colle',
+            'https://data.verborgh.org/people/emanuele_della_valle',
+            'https://data.verborgh.org/people/erik_mannens',
+            'https://data.knows.idlab.ugent.be/person/femkeongenae/#me',
+            'https://www.ugent.be/ea/idlab/en/members/filip-de-turck.htm',
+            'https://data.verborgh.org/people/frederic_vannieuwenborg',
+            'https://data.verborgh.org/people/geroen_joris',
+            'https://data.knows.idlab.ugent.be/person/gertjandm/#me',
+            'https://data.knows.idlab.ugent.be/person/givdwiel/#me',
+            'http://multiling.iit.demokritos.gr/profile/h.antonatos',
+            'https://data.verborgh.org/people/heba_aamer',
+            'https://data.verborgh.org/people/hideaki_takeda',
+            'https://data.verborgh.org/people/laurens_debackere',
+            'http://luisgalarraga.de/',
+            'https://data.verborgh.org/people/marlies_van_der_wee',
+            'https://data.verborgh.org/people/merlijn_sebrechts',
+            'https://data.verborgh.org/people/miel_vander_sande',
+            'https://vbn.aau.dk/en/persons/olivier-paul-pelgrin',
+            'https://pietercolpaert.be/#me',
+            'https://pieterheyvaert.com/#me',
+            'https://data.verborgh.org/people/pieter_pauwels',
+            'https://www.ugent.be/ea/idlab/en/members/pieter-simoens.htm',
+            // 'https://riccardotommasini.com/',
+            'https://data.verborgh.org/people/thomas_dupont',
+            'https://data.verborgh.org/people/tom_goethals',
+            // 'https://www.linkedin.com/in/ilja-rausch/',
+            'https://data.verborgh.org/people/jacob_beetz',
+            'https://data.verborgh.org/people/jeroen_werbrouck',
+            'https://data.verborgh.org/people/joachim_van_herwegen',
+            'https://id.eriador.io/jonni#me',
+            'https://julianrojas.org/#me',
+            'https://www.karelklima.cz/',
+            // 'https://homes.cs.aau.dk/~khose/About_me.html',
+            'https://data.verborgh.org/people/katrien_mostaert',
+            'https://www.mff.cuni.cz/en/faculty/organizational-structure/people?hdl=3277',
+            'https://data.knows.idlab.ugent.be/person/martinvanbrabant/#me',
+            // 'https://www.maastrichtuniversity.nl/mj-dumontier',
+            'https://data.verborgh.org/people/rik_van_de_walle',
+            'https://data.verborgh.org/people/raf_buyle',
+            'https://reschauz.pod.knows.idlab.ugent.be/profile/profile/card#me',
+            'https://www.rubensworks.net/#me',
+            'https://ruben.verborgh.org/profile/#me',
+            'http://sabrinakirrane.com/',
+            'https://csarven.ca/#i',
+            'https://data.verborgh.org/people/simon_steyskal',
+            'https://data.verborgh.org/people/sofie_verbrugge',
+            'https://s11.no/',
+            'https://data.verborgh.org/people/thibault_mahieu',
+            'https://www.w3.org/People/Berners-Lee/card#i',
+            'https://www.tkuhn.org/',
+            // 'https://www.maastrichtuniversity.nl/vr-emonet',
+            'https://data.verborgh.org/people/wannes_kerckhove',
+            'https://data.verborgh.org/people/younes_zeboudj',
+        ],
+    };
+
+    // Your code goes here
+})();

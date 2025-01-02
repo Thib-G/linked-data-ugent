@@ -1,0 +1,22 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "target": "es2021",
+    "lib": [
+      "es2021",
+      "dom"
+    ],
+    "module": "commonjs",
+    "resolveJsonModule": true,
+
+    "removeComments": false,
+    "outDir": "./out",
+    "skipLibCheck": true
+  },
+  "include": [
+    "ts/*",
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
